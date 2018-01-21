@@ -5,17 +5,17 @@ html
     
     // bootstrap을 사용하기 위한 링크와 스크립트 사용 명시
     script(type="text/javascript", src="/js/jquery-2.0.3.min.js")
-    link(rel="stylesheet", href="/css/bootstrap-3.0.2/css/bootstrap.min.css")
-    link(rel="stylesheet", href="/css/bootstrap-3.0.2/css/bootstrap-theme.min.css")
-    link(rel="stylesheet", href="/css/main_css.css")
-    script(type="text/javascript", src="/css/bootstrap-3.0.2/js/bootstrap.min.js")
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css")
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css")
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js")
+    link(rel="stylesheet", href="public/css/main_css.css")
     script(type="text/javascript", src="/js/blog.js")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
   body
     //wrap으로 레이아웃
     #wrap
       .container
-        h1.page-header= appTitle
+        h1.page-header.head-font= appTitle
         p.lead 자취하는 사람들의 커뮤니티 공간 자취남녀에 오신걸 환영합니다.
           br
         block page

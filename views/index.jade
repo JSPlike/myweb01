@@ -1,0 +1,12 @@
+// extends layout 명시 레이아웃 고정
+extends layout
+// main view
+block page
+  - var menu = 'index'
+block content
+    | There's no published content yet. 
+    a(href="/login") Log in
+    |  to post and publish.
+
+    div
+        img(src="public/img/img-main.jpg" class="index-img")
