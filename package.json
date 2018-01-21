@@ -1,0 +1,29 @@
+{
+  "name": "myweb01",
+  "version": "1.0.0",
+  "description": "self-living web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSPlike/myweb01.git"
+  },
+  "author": "joonyoung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JSPlike/myweb01/issues"
+  },
+  "homepage": "https://github.com/JSPlike/myweb01#readme",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "crypto": "^1.0.1",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "serve-static": "^1.13.1",
+    "supervisor": "^0.12.0"
+  }
+}
